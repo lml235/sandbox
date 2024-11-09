@@ -11,12 +11,34 @@ body {
   grid-gap: 20px;
   grid-template-areas:
     "masthead"    "masthead"
-    "navigation"  "introduction"
+    "navigation"  "aside"
     "Discography"  "Disocography"
+}
+
+a,
+a:link {
+  color: #5B5B71;
+}
+
+a:visited {
+  color: #ffdcdb; 
+}
+
+a:hover {
+  color: #91a8d0;
+}
+
+a:active{
+  color: #f7cac9
 }
 
 header {
   grid-area: masthead;
+}
+
+aside {
+  grid-area: aside;
+  background-color: #d7d7d7
 }
 
 nav {
