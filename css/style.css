@@ -22,3 +22,26 @@ header {
 nav {
   grid-area: navigation;
 }
+
+header,
+footer {
+  background-color: #ffdcdb;
+  padding: 0 20px;
+}
+
+nav,
+section {
+  background-color: #b4c8ea;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+header {
+  grid-area: masthead;
+}
